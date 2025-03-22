@@ -32,3 +32,28 @@ __pycache__/
 
 # Temporary or test scripts (only if not needed in version control)
 test.py
+
+
+myenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Environment variables
+.env
+
+# Data directories
+fitness_images/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
