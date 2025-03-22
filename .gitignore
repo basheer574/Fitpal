@@ -1,3 +1,22 @@
+# ====== Directories to Ignore ======
+
+# Virtual environments
+.venv/
+myenv/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Data and model directories
 fitness_images/
 fine_tuned_bert_model/
 fitpal_bert_model/
@@ -6,54 +25,19 @@ results/
 static/
 bert_chatbot_model/
 utils/
-X_train_sbert.npy
-val_labels_language.npy
-X_train_sbert.npy
-class_mapping.pkl
-y_train.npy
-y_test.npy
-xgb_model.pkl
-X_test_sbert.npy
-val_embeddings_language.npy
-utils.py
-pytrain_labels.npy
-bert_label_encoder.pkl
-class_mapping.pkl
-decision_tree_model.pkl
-*.pt  # PyTorch saved model files
-*.h5  # Keras model files
-*.ckpt # Checkpoint files
 
-# Virtual environment
-.venv/
+# Checkpoints and model files
+*.pt  
+*.h5  
+*.ckpt 
+*.pkl
+*.npy
 
-# Python cache
-__pycache__/
-
-# Temporary or test scripts (only if not needed in version control)
-test.py
-
-
-myenv/
-
-# Python
-__pycache__/
-*.py[cod]
-*.egg
-*.egg-info/
-dist/
-build/
-.venv/
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
 
 # Environment variables
 .env
 
-# Data directories
-fitness_images/
-
-# IDEs and editors
-.vscode/
-.idea/
-
-# Jupyter notebook checkpoints
-.ipynb_checkpoints
+# Temporary scripts or test files
+test.py
