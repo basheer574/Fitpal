@@ -1,43 +1,38 @@
-# ====== Directories to Ignore ======
-
-# Virtual environments
+# Ignore Python cache and environment folders
+__pycache__/
 .venv/
 myenv/
 
-# IDEs and editors
-.vscode/
-.idea/
-
-# Python cache and compiled files
-__pycache__/
-*.py[cod]
-*.egg
-*.egg-info/
-dist/
-build/
-
-# Data and model directories
+# Ignore model folders and assets
 fitness_images/
 fine_tuned_bert_model/
 fitpal_bert_model/
+bert_chatbot_model/
 metrics/
 results/
 static/
-bert_chatbot_model/
 utils/
 
-# Checkpoints and model files
-*.pt  
-*.h5  
-*.ckpt 
-*.pkl
+# Ignore data and model files
 *.npy
+*.pkl
+*.pt
+*.h5
+*.ckpt
+*.db
+*.csv
 
-# Jupyter notebook checkpoints
-.ipynb_checkpoints
+# Ignore notebooks (optional)
+*.ipynb
 
-# Environment variables
+# Ignore logs, prompts, misc
+*.log
+prompts.txt
+
+# Ignore secrets
 .env
 
-# Temporary scripts or test files
-test.py
+# VSCode config
+.vscode/
+.idea/
+
