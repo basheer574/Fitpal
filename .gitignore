@@ -23,3 +23,12 @@ decision_tree_model.pkl
 *.pt  # PyTorch saved model files
 *.h5  # Keras model files
 *.ckpt # Checkpoint files
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Temporary or test scripts (only if not needed in version control)
+test.py
