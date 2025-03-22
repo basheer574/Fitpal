@@ -35,3 +35,6 @@ prompts.txt
 # VSCode config
 .vscode/
 .idea/
+
+EveTAR-S.txt
+*.txt
