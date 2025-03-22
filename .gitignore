@@ -6,3 +6,17 @@ results/
 static/
 bert_chatbot_model/
 utils/
+X_train_sbert.npy
+val_labels_language.npy
+X_train_sbert.npy
+class_mapping.pkl
+y_train.npy
+y_test.npy
+xgb_model.pkl
+X_test_sbert.npy
+val_embeddings_language.npy
+utils.py
+pytrain_labels.npy
+bert_label_encoder.pkl
+class_mapping.pkl
+decision_tree_model.pkl
