@@ -1,0 +1,17 @@
+Accuracy: 0.9265
+Precision: 0.9358
+Recall: 0.9286
+F1-score: 0.9257
+
+Classification Report:
+                      precision    recall  f1-score   support
+
+  endurance_training       1.00      1.00      1.00        14
+flexibility_mobility       1.00      1.00      1.00        13
+         muscle_gain       1.00      0.71      0.83        14
+   strength_training       0.81      0.93      0.87        14
+         weight_loss       0.87      1.00      0.93        13
+
+            accuracy                           0.93        68
+           macro avg       0.94      0.93      0.93        68
+        weighted avg       0.94      0.93      0.92        68
