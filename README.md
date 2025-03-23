@@ -33,8 +33,7 @@ FitPal is an advanced generative AI-powered chatbot designed to offer personaliz
 ## 📦 Dataset Information
 The chatbot utilizes two primary datasets fetched from Kaggle:
 
-- **[Gym Exercises Dataset](insert DOI/URL)**
-- **[Nutrition Dataset](insert DOI/URL)**
+- **[Gym Exercises Dataset] https://www.kaggle.com/datasets/niharika41298/gym-exercise-data
 
 ---
 
