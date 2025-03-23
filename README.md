@@ -69,3 +69,9 @@ FitPal/
 ├── LICENSE
 └── README.md
 
+How to run the system:
+1. Start the flask server by executing app.py, once the server start running on local host, the system is ready for use.
+2. To test the system call the register function to register new user into the database of users.
+3. Select a user for the fitness route and call predict function, once you establish a the training type ex: general fitness, muscle gaining or weight loss, the the predict function should provide you with a detailed fitness plan in pdf file that is avalible for you to download.
+
+
